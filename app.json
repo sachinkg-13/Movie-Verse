@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Movie application",
+    "name": "Movie Verse",
     "description": "A mobile application to watch movies",
-    "slug": "mobile-movie-app",
+    "slug": "movie-verse",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
