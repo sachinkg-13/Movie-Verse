@@ -1,12 +1,14 @@
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
+import { getUserDetails } from "@/services/appwrite";
 import { View, Text, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 const Profile = () => {
+
   return (
     <SafeAreaView className="bg-primary flex-1">
-      <Image source={icons.logo} className="w-12 h-10 mt-20 mb-5 mx-auto" />
+      <Image source={icons.logo} className="w-12 h-10 mt-8 z-10 mx-auto" />
       <Image
         source={images.bg}
         className="flex-1 absolute w-full z-0"
